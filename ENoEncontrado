@@ -1,0 +1,8 @@
+package Default;
+
+public class ENoEncontrado extends Exception{
+
+	public ENoEncontrado(String s) {
+		super(" No se encontro " + s + " para tu tipo de busqueda");
+	}
+}
